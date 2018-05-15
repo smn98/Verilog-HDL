@@ -9,7 +9,7 @@ module ram1(
     output [3:0] o
     );
 	 
-	reg [3:0] ram [31:0];
+	reg [3:0] ram [15:0];
 	reg [3:0]o;
 	
 	always@(posedge clk) begin
